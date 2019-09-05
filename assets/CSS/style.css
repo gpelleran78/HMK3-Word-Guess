@@ -1,0 +1,33 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background: url('../images/2-WordGuess.jpg') no-repeat;
+    background-position: center;
+    background-size: fill;
+}
+.container { 
+    text-align: center;
+    
+}
+h1,h2,h3,
+
+h4,h5,h6 {
+    padding: 5px;
+    background-color: green;
+}
+#title-image, #gameover-image, #youwin-image{ 
+    display: block;
+    margin: 0 auto;
+}
+
+#currentWord {
+    letter-spacing: 10px;
+}
+
+.gameplay-column {
+    margin: 275px;
+    border: 2px dashed #fff;
+    text-align: center;
+    margin-top: 20px;
+    position: right;
+}

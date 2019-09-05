@@ -13,27 +13,35 @@
 //     }
 // };
 //========Global============
-var wordBank = ['Joker','Harley-Quinn','BatMan','Wonder-Woman',"Flash"];
-var wins = 0;
-var losses = 0;
-var wrongLetter = [];
-var guessesLeft = 10;
-var underScore = [];
+var wordBank = ['Joker', 'Harley-Quinn', 'BatMan', 'Wonder-Woman', "Flash"];
+// var wins = 0;
+// var losses = 0;
+// var wrongLetter = [];
+// var guessesLeft = 10;
+// var underScore = [];
 var randWord;
 
 //======Function==========
-function startGame(){
+function startGame() {
 
-    //random word generator
-    randWord = wordBank[Math.floor(Math.random() * wordBank.length)];
-    
-    for (var i = 0; i < randWord.length; i++);
-    {
+//random word generator
+randWord = wordBank[Math.floor(Math.random() * wordBank.length)];
 
-    }
-    console.log(randWord);
-   
+for (var i = 0; i < randWord.length; i++);
+{
+    answerArrey[i] = "_";
 }
 
+var remainingLetters = randWord.length;
 
+
+while (remainingLetters > 0) {
+
+
+
+console.log(randWord);
+
+}
+
+}
 startGame();
